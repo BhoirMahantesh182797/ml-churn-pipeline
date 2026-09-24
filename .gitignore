@@ -1,0 +1,14 @@
+# Ignore Data Files (Never commit raw data)
+data/
+
+# Ignore Virtual Environments
+.venv/
+venv/
+
+# Ignore Mac and VS Code system files
+.DS_Store
+.vscode/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
