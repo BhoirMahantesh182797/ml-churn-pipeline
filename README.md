@@ -30,3 +30,20 @@ ml-churn-pipeline/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
+
+🚀 How to Run
+Clone repo: git clone https://github.com/BhoirMahantesh182797/ml-churn-pipeline.git
+Navigate to folder: cd ml-churn-pipeline
+Create env: python -m venv .venv
+Activate & install: source .venv/bin/activate && pip install -r requirements.txt
+Run the pipeline sequentially:
+ python src/ingestion/ingest_raw.py
+ python src/transform/clean_silver.py
+ python src/transform/feature_gold.py
+ python src/ml/train_model.py
+
+Commit and push this final README:
+```bash
+git add README.md
+git commit -m "Docs: Finalize README with complete pipeline architecture"
+git push origin main
